@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: blue;
+    
+}
+.header ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+.header li{
+    display: inline-block;
+    position: relative;
+}
+.header a{
+    display: block;
+    padding: 12px 15px;
+    text-decoration: none;
+    color: white;
+
+    
+}
+.header a:hover{
+    background-color: tomato;
+}
+.header ul ul{
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    background-color: aqua;
+    display: none;
+}
+.header ul ul li{
+    display:block;
+}
+.header ul  :hover ul{
+    display: block;
+}
